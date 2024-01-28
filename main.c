@@ -9,8 +9,6 @@ int main() {
     do {
         scanf("%d %d", &num1, &num2);
 
-        if (num1 <= 0 || num2 <= 0) {
-        }
     } while (num1 <= 0 || num2 <= 0);
 
     // Swap the numbers if the first number is greater than the second number
@@ -27,23 +25,25 @@ int main() {
             printf(" %d", i);
         }
     }
+    printf("\n");
     // isPalindrome number print loop
-    printf("\nThe Palindromes are:");
+    printf("The Palindromes are:");
     for (int i = num1; i <= num2; ++i) {
         if (isPalindrome(i)) {
             printf(" %d", i);
         }
     }
-
+    printf("\n");
     // isPrime number print loop
-    printf("\nThe Prime numbers are:");
+    printf("The Prime numbers are:");
     for (int i = num1; i <= num2; ++i) {
         if (isPrime(i)) {  
             printf(" %d", i);
         }
     }
+    printf("\n");
     // isStrong number print loop
-    printf("\nThe Strong numbers are:");
+    printf("The Strong numbers are:");
     for (int i = num1; i <= num2; ++i) {
         if (isStrong(i)) {
             printf(" %d", i);
