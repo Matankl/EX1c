@@ -4,8 +4,8 @@ int factorial(int n);
 
 
 int isPrime(int num){
-    // If the number is less than or equal to 1, it's not prime
-    if (num <= 1) {
+    // If the number is less than 1, it's not prime
+    if (num < 1) {
         return 0;
     }
 
