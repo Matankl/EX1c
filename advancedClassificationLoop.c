@@ -10,15 +10,14 @@ int isArmstrong (int num){
     int sum = 0;
 
     // Calculate the sum of nth power of each digit, stops if sum exceeds the original number
-    while (num != 0 && sum < originalNum) {
+    while (num != 0) {
         int digit = num % 10;
         sum += power(digit, digitCount);
         num /= 10;
     }
 
     // Check if the sum is equal to the original number
-    if (sum == originalNum) {
-        return 1;
+    return sum == originalNum
     }
     return 0;
 }
