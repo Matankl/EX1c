@@ -18,8 +18,6 @@ int isArmstrong (int num){
 
     // Check if the sum is equal to the original number
     return sum == originalNum
-    }
-    return 0;
 }
 
 
