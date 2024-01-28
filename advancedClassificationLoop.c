@@ -1,4 +1,5 @@
 #include "NumClass.h"
+#include <stdio.h>
 
 int countDigits(int);
 int power(int, int);
