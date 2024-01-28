@@ -21,32 +21,32 @@ int main() {
     }
 
     // isArmstrong number print loop
-    printf("The Armstrong numbers are: ");
+    printf("The Armstrong numbers are:");
     for (int i = num1; i <= num2; ++i) {
         if (isArmstrong(i)) {
-            printf("%d ", i);
+            printf(" %d", i);
         }
     }
     // isPalindrome number print loop
-    printf("\nThe Palindromes are: ");
+    printf("\nThe Palindromes are:");
     for (int i = num1; i <= num2; ++i) {
         if (isPalindrome(i)) {
-            printf("%d ", i);
+            printf(" %d", i);
         }
     }
 
     // isPrime number print loop
-    printf("\nThe Prime numbers are: ");
+    printf("\nThe Prime numbers are:");
     for (int i = num1; i <= num2; ++i) {
         if (isPrime(i)) {  
-            printf("%d ", i);
+            printf(" %d", i);
         }
     }
     // isStrong number print loop
-    printf("\nThe Strong numbers are: ");
+    printf("\nThe Strong numbers are:");
     for (int i = num1; i <= num2; ++i) {
         if (isStrong(i)) {
-            printf("%d ", i);
+            printf(" %d", i);
         }
     }
 
